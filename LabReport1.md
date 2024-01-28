@@ -10,7 +10,7 @@
 ### 2) with a path to a directory as an argument
 ![Image](cd2.png)
 - working directory: ~/
-- Explanation: `cd`change directory to ./lecture1/messages, using dot at the beginning of the path because the working directory is working directory, by doing so, the working directory changeed to /home/lecture1/messages, it's not an error as well.
+- Explanation: `cd`change directory to ./lecture1/messages, using dot at the beginning of the path because the working directory is working directory, by doing so, the working directory changed to /home/lecture1/messages, it's not an error as well.
   
 ### 3) with a path to a file as an argument
 ![Image](cd3.png)
@@ -22,7 +22,7 @@
 ### 1) no arguments
 ![Image](ls1.png)
 - working directory: ~/
-- Explanation: The output are "lecture1 lecture2", it it lists all the files within the home directory. No error.
+- Explanation: The output are "lecture1 lecture2", it lists all the files within the ***current*** directory, since the current directory is home, so it lists all the files within the home directory. No error.
   
 ### 2) with a path to a directory as an argument
 ![Image](ls2.png)
@@ -39,7 +39,7 @@
 ### 1) no arguments
 ![Image](cat1.png)
 - working directory: ~/lecture1
-- Explanation: It doesn't show anything, because ~/lecture1 is a directory, instead of a file, and `cat` displays the contents of the file. But no any error displayed.
+- Explanation: It doesn't show anything, because ~/lecture1 is a directory, instead of a file, and `cat` displays the contents of the file. But no any error displayed.(***correction***: after typing anything("hello") after using cat without argument, and hit enter, it shows the the contents I've typed in just now("hello"))
   
 ### 2) with a path to a directory as an argument
 ![Image](cat2.png)
